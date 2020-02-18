@@ -141,7 +141,7 @@ var shoppingCart = (function() {
 window.onload = function() {
 
 $(".add-to-cart").click(function(event) {
-	alert("test lang");
+	
   event.preventDefault();
   var name = $(this).data("name");
   var price = Number($(this).data("price"));
